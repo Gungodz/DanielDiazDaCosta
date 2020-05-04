@@ -1,5 +1,5 @@
 // Esto es un cambio del alumno 2 (FranJaviMN)
-
+// Cambio
 import java.util.Scanner;
 
 public class Ejercicio1 {
