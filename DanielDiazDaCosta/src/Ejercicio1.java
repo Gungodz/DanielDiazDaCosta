@@ -1,3 +1,4 @@
+// Esto es un cambio del alumno 2 (FranJaviMN)
 import java.util.Scanner;
 
 public class Ejercicio1 {
@@ -15,16 +16,16 @@ public class Ejercicio1 {
 		int edad;
 		
 		//Inicio
-		System.out.println("Introduce la edad, máximo " + EDAD_MAXIMA);
+		System.out.println("Introduce la edad, mï¿½ximo " + EDAD_MAXIMA);
 		edad = Integer.parseInt(teclado.nextLine()); // leer numero
 		
 		
 		if (edad < 0 || edad >= EDAD_MAXIMA){
-			System.out.println("Edad incorrecta, no está en el rango indicado");
+			System.out.println("Edad incorrecta, no estï¿½ en el rango indicado");
 		}
 		else{
 			if (edad <= LIMITE_NINNO){
-				System.out.println("Es un niño");
+				System.out.println("Es un niï¿½o");
 			}
 			else{
 				if (edad <= LIMITE_ADOLESCENTE){
